@@ -3,16 +3,16 @@ import 'package:main_game_app/pages/game_page.dart';
 import 'package:main_game_app/pages/profile_page.dart';
 import 'package:main_game_app/pages/redeem_page.dart';
 
-import 'leader_page.dart';
+import '../pages/leader_page.dart';
 
-class HomePage extends StatefulWidget {
-  const HomePage({super.key});
+class BottomNavigationBarMainApp extends StatefulWidget {
+  const BottomNavigationBarMainApp({super.key});
 
   @override
-  State<HomePage> createState() => _HomePageState();
+  State<BottomNavigationBarMainApp> createState() => _HomePageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _HomePageState extends State<BottomNavigationBarMainApp> {
   int _selectedIndex = 0;
 
   PageController pageController = PageController();
